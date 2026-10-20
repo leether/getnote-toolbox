@@ -1,0 +1,4 @@
+- insert:
+    - id: getnote-toolbox
+      name: '@leether/getnote-toolbox'
+      inject: [tools]

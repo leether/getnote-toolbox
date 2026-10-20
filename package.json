@@ -1,0 +1,61 @@
+{
+  "name": "@leether/getnote-toolbox",
+  "version": "1.2.0",
+  "private": true,
+  "description": "A native DeepSeek Harness Host plugin for GetNote (得到大脑): search, save, read, and organize notes, tags, and knowledge bases.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "test": "node --test test/*.test.mjs",
+    "pack:check": "npm pack --dry-run",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "getnote",
+    "notes",
+    "knowledge-base"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@deepseek-ai/schemastery": "^3.18.5"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/schemastery": ">=3.18.0 <4"
+  },
+  "author": "leether",
+  "packageManager": "pnpm@10.32.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leether/getnote-toolbox.git"
+  },
+  "homepage": "https://github.com/leether/getnote-toolbox#readme",
+  "bugs": {
+    "url": "https://github.com/leether/getnote-toolbox/issues"
+  }
+}
