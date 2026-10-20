@@ -3,7 +3,7 @@
 This repository is a **source bundle**. The npm package is published.
 
 - Package name: `@leether/getnote-toolbox`
-- Current npm version: `1.2.0`
+- Current npm version: `1.2.1`
 - Access: public (`publishConfig.access: "public"`)
 - `private`: `false`
 

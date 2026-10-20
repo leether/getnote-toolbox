@@ -11,14 +11,14 @@ into 15 structured tools for notes, tags, and knowledge bases.
 
 ## 状态
 
-- Version `1.2.0`
+- Version `1.2.1`
 - 15 tools, Config schema, bundled guidance Skill
 - Node.js >= 20
 - Tests: `pnpm test` (28 tests, fake CLI, no network)
 - CI: Node 20/22, Linux/macOS
 - 仓库：<https://github.com/leether/getnote-toolbox>
 - 已发布到 npm：<https://www.npmjs.com/package/@leether/getnote-toolbox>
-- 当前 npm 版本：`1.2.0`；源码与 npm tarball 均为 MIT
+- 当前 npm 版本：`1.2.1`；源码与 npm tarball 均为 MIT
 
 ## 为什么做这个
 
@@ -165,7 +165,7 @@ node scripts/smoke.mjs
 
 ## 设计文档
 
-- [docs/DESIGN.md](docs/DESIGN.md)：CLI / Tool / Skill 分层、契约、安全与测试
+- [docs/DESIGN.md](https://github.com/leether/getnote-toolbox/blob/main/docs/DESIGN.md)：CLI / Tool / Skill 分层、契约、安全与测试
 - [CHANGELOG.md](CHANGELOG.md)：版本变化
 - [RELEASING.md](RELEASING.md)：打包与本地/registry 发布流程
 

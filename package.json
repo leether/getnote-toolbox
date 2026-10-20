@@ -1,6 +1,6 @@
 {
   "name": "@leether/getnote-toolbox",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "private": false,
   "description": "A native DeepSeek Harness Host plugin for GetNote (得到大脑): search, save, read, and organize notes, tags, and knowledge bases.",
   "type": "module",
