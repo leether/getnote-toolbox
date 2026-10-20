@@ -6,7 +6,7 @@ into 15 structured tools for notes, tags, and knowledge bases.
 > 中文说明为主；给英文读者的摘要：this is an MIT-licensed DSH Host bundle that
 > wraps the local `getnote` CLI. It was created because the official GetNote DSH
 > plugin did not support DSH Desktop when the project started. It never reads or
-> echoes API keys. It is not published to npm; install it as a local bundle. See
+> echoes API keys. It is published on npm as `@leether/getnote-toolbox`. See
 > [Security](#security).
 
 ## 状态
@@ -17,7 +17,8 @@ into 15 structured tools for notes, tags, and knowledge bases.
 - Tests: `pnpm test` (28 tests, fake CLI, no network)
 - CI: Node 20/22, Linux/macOS
 - 仓库：<https://github.com/leether/getnote-toolbox>
-- 公开源码，**尚未正式发布到 npm**；`package.json` 已配置为 public access，等待发布
+- 已发布到 npm：<https://www.npmjs.com/package/@leether/getnote-toolbox>
+- 当前 npm 版本：`1.2.0`；源码与 npm tarball 均为 MIT
 
 ## 为什么做这个
 
@@ -63,8 +64,14 @@ getnote auth login   # 未登录时
 
 ## 安装
 
-这个仓库目前是**源码 bundle**，尚未正式发布到 npm。先克隆仓库，再用你所用 DSH 版本的
-本地 bundle / link 流程安装本目录，并确认 `cordis.patch.yml` 被加载：
+已发布为 npm bundle，优先在 DSH Plugin Manager 中安装：
+
+```text
+@leether/getnote-toolbox
+```
+
+开发或调试时，也可以克隆源码，用你所用 DSH 版本的本地 bundle / link 流程安装本目录，
+并确认 `cordis.patch.yml` 被加载：
 
 ```bash
 git clone https://github.com/leether/getnote-toolbox.git
