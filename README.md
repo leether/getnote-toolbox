@@ -160,6 +160,13 @@ node scripts/smoke.mjs
 （MIT，Copyright GetNote）；本项目是独立重写，并扩展了写操作、Config schema、内置
 Skill 和兼容性处理。
 
+## 延伸阅读
+
+这本书把本插件的制作过程写成了一节案例，包含能力审计、契约设计、测试和公开前的隐私审查：
+
+- 中文：<https://leether.github.io/dsh-book/ch09.html>
+- English: <https://leether.github.io/dsh-book/en/ch09.html>
+
 ## License
 
 MIT，见 [LICENSE](LICENSE)。书稿正文的 CC BY-NC-ND 许可不适用于本代码仓库。
