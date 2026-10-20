@@ -17,7 +17,7 @@ into 15 structured tools for notes, tags, and knowledge bases.
 - Tests: `pnpm test` (28 tests, fake CLI, no network)
 - CI: Node 20/22, Linux/macOS
 - 仓库：<https://github.com/leether/getnote-toolbox>
-- 公开源码，但**尚未发布到 npm**；`package.json` 仍为 `"private": true`
+- 公开源码，**尚未正式发布到 npm**；`package.json` 已配置为 public access，等待发布
 
 ## 为什么做这个
 
@@ -63,7 +63,7 @@ getnote auth login   # 未登录时
 
 ## 安装
 
-这个仓库目前是**源码 bundle**，没有发布到 npm。先克隆仓库，再用你所用 DSH 版本的
+这个仓库目前是**源码 bundle**，尚未正式发布到 npm。先克隆仓库，再用你所用 DSH 版本的
 本地 bundle / link 流程安装本目录，并确认 `cordis.patch.yml` 被加载：
 
 ```bash

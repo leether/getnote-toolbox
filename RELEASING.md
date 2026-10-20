@@ -1,9 +1,11 @@
 # Releasing
 
-This repository is a **source bundle**. It is public, but the npm package is
-still marked `"private": true` and has not been published to npm.
+This repository is a **source bundle**. The npm package is publish-ready, but
+it has not been published to npm yet.
 
 - Package name: `@leether/getnote-toolbox`
+- Access: public (`publishConfig.access: "public"`)
+- `private`: `false`
 - Repository: <https://github.com/leether/getnote-toolbox>
 - Bundle patch: `cordis.patch.yml`
 - Current version: `1.2.0`
