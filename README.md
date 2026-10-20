@@ -4,8 +4,10 @@ A native DeepSeek Harness (DSH) Host plugin that turns the local `getnote` CLI
 into 15 structured tools for notes, tags, and knowledge bases.
 
 > 中文说明为主；给英文读者的摘要：this is an MIT-licensed DSH Host bundle that
-> wraps the local `getnote` CLI. It never reads or echoes API keys. It is not
-> published to npm; install it as a local bundle. See [Security](#security).
+> wraps the local `getnote` CLI. It was created because the official GetNote DSH
+> plugin did not support DSH Desktop when the project started. It never reads or
+> echoes API keys. It is not published to npm; install it as a local bundle. See
+> [Security](#security).
 
 ## 状态
 
@@ -16,6 +18,12 @@ into 15 structured tools for notes, tags, and knowledge bases.
 - CI: Node 20/22, Linux/macOS
 - 仓库：<https://github.com/leether/getnote-toolbox>
 - 公开源码，但**尚未发布到 npm**；`package.json` 仍为 `"private": true`
+
+## 为什么做这个
+
+开发开始时，官方 `@getnote/dsh-plugin` 还不支持 DSH Desktop。Desktop 是日常使用的主要入口，所以我们补了一个能在本地 Desktop profile 里真正使用的 bundle，并优先处理 Desktop 的 locale/icon 展示、CLI 发现和 Plugin Manager 可见性。
+
+这不是要替代官方插件。如果官方版本已经覆盖你的环境和需求，优先使用官方版本。
 
 ## 能力
 

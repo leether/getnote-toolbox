@@ -1,5 +1,15 @@
 # Design Notes
 
+## 0. Motivation
+
+When this project started, the official `@getnote/dsh-plugin` did not support
+DSH Desktop. Desktop is the primary daily entry point, so this bundle was built
+to close that gap: a local Desktop bundle with Desktop-visible metadata,
+predictable CLI discovery, and a clear Plugin Manager surface.
+
+This is not a replacement for the official plugin. If the official version
+already supports your environment, prefer it.
+
 ## 1. Three layers
 
 | Layer | Responsibility | Executes | Enforces |
